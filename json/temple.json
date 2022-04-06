@@ -1,0 +1,73 @@
+{
+  "templedata": [
+    {
+      "name": "Accra Ghana temple",
+      "address": "Accra Ghana Temple Complex 57 Independence Ave, North Ridge P.M.B. CT 209, Cantonments, Accra, Ghana,",
+      "announced": "16 February 1998",
+      "Groundbreaking": "16 November 2001",
+      "Datededicated": "11 January 2004",
+      "closureSchedule": "Saturday, 20 August 2022,Tuesday, 13 September 2022 - Tuesday, 27 September 2022 Sunday, 25 December 2022 - Monday, 26 December 2022",
+      "phone": "(233) 302-650-123",
+      "imageUrl": "images/accra_ghana_temple_lds.webp",
+      "hearts":"like"
+    
+    },
+
+    {
+      "name": "Rome Italy Temple ",
+      "address": "Via di Settebagni 376 Rome RM Italy",
+      "announced": "4 October 2008",
+      "Groundbreaking": "23 October 2010",
+      "Datededicated": "10 March 2019",
+      "closureSchedule": "Wednesday, 29 June 2022 Monday, 19 September 2022 - Monday, 3 October 2022 Saturday, 24 December 2022 - Monday, 26 December 2022 Saturday, 31 December 2022 - Sunday, 1 January 2023",
+      "phone": "(39) 06-9480-5050",
+      "imageUrl": "images/rome_italy_temple.webp",
+      "hearts":"Like"
+    },
+    {
+      "name": "Provo Utah Temple ",
+      "address": "2200 Temple Hill Dr Provo UT 84604-1775 United States",
+      "announced": "14 August 1967",
+      "Groundbreaking": "15 June 1969",
+      "Datededicated": "9 February 1972",
+      "closureSchedule": "Saturday, 2 April 2022 Monday, 30 May 2022 Monday, 4 July 2022 - Monday, 18 July 2022 Monday, 25 July 2022",
+      "phone": "(1) 801-375-5775",
+      "imageUrl": "images/provo_temple_lds.webp",
+      "hearts":"Like"
+    },
+    {
+      "name": "Rexburg Idaho Temple ",
+      "address": "750 S 2nd E Rexburg ID 83440-5404 United States",
+      "announced": "12 December 2003",
+      "Groundbreaking": "30 July 2005",
+      "Datededicated": "10 February 2008",
+      "closureSchedule": "Saturday, 2 April 2022 Monday, 11 April 2022 - Monday, 4 July 2022 Saturday, 23 July 2022 Saturday, 1 October 2022 Wednesday, 23 November 2022 - Thursday, 24 November 2022 Saturday, 24 December 2022 Saturday, 31 December 2022",
+      "phone": "(1) 208-656-0880",
+      "imageUrl": "images/rexburg_idaho_temple.webp",
+      "hearts":"Like"
+    },
+    {
+      "name": "Taipei Taiwan Temple ",
+      "address": "256 Ai Kuo East Road,Taipei 10642 Taiwan",
+      "announced": "31 March 1982",
+      "Groundbreaking": "27 August 1982",
+      "Datededicated": "17 November 1984",
+      "closureSchedule": "Saturday, 9 April 2022 Monday, 18 April 2022 - Monday, 2 May 2022 Saturday, 10 September 2022 Saturday, 8 October 2022 Monday, 17 October 2022 - Monday, 31 October 2022 Saturday, 24 December 2022",
+      "phone": "(886) 2-2192-4930",
+      "imageUrl": "images/taipei_temple_lights_night_holiness.webp",
+      "hearts":"Like"
+    },
+    {
+      "name": "Portland Oregon Temple ",
+      "address": "13600 Kruse Oaks Blvd Lake Oswego OR 97035-8602 United States",
+      "announced": "7 April 1984",
+      "Groundbreaking": "20 September 1986",
+      "Datededicated": "19 August 1989",
+      "closureSchedule": "Monday, 4 July 2022Monday, 18 July 2022 -  Monday, 15 August 2022 Saturday, 1 October 2022 Wednesday, 23 November 2022 (Limited Operations) Thursday, 24 November 2022 Saturday, 24 December 2022 Sunday, 25 December 2022 Saturday, 31 December 2022",
+      "phone": "(1) 503-639-7066",
+      "imageUrl": "images/portland_oregon_temple.webp",
+      "hearts":"Like"
+    }
+
+  ]
+}

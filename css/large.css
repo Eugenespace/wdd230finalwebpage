@@ -1,0 +1,114 @@
+@media only screen and (min-width: 1028px) {
+    nav button{
+    display: none;
+    }
+
+    nav ul.navlinks{
+        display: flex;
+        
+        text-decoration: none;
+        list-style: none;
+        padding: .8rem 0;
+       
+      }
+    
+      div.homewrapper{
+        display: grid;
+        grid-template-columns: 250px 1fr 250px;
+        grid-gap: 10px;
+      }
+      .herolargeView{
+        background-image: url('../images/bannerhotelsuite.webp');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center center;
+      height: auto;}
+      div.heroimg{
+        grid-column: 2/3;
+        grid-row: 2/3;
+        border: 1px solid;
+        border-radius: 4px;
+
+      }
+      div.oregonCard{
+        grid-column: 1/4;
+        grid-row: 3/4;
+      }
+      div.cardTemple{
+        grid-column: 1/4;}
+
+      div.weather__dailyforcast{
+        grid-column: 1/2;
+        grid-row: 2/3;
+
+      }
+      div.stickyevent{
+        grid-column: 3/4;
+        grid-row: 2/3;
+      }
+      div.weather__dailyforcast{
+        flex-direction: column;
+      }
+      /*---------------------------------temple-------------------------------------*/
+      div.card__directory{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+      }
+
+      /*----------------------Reservation-------------------------------*/
+      div.formwrapper{
+        display:grid ;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: auto;
+        grid-gap: 10px;
+      }
+      div.forms{
+        grid-column: 1/2;
+        grid-row: 1/4;
+      }
+
+      form fieldset {
+        margin-bottom: 10px;
+        border: 1px solid #445ba9;
+        padding: 0.5rem 2%;
+      }
+      div.deluxe h2{
+        text-align: center;
+      }
+      /*---------------------Services---------------------------------------------*/
+      div.servicesWrapper{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 250px 600px 1fr;
+        grid-gap:10px;
+      }
+      div.listedServices{
+        grid-column: 1/4;
+        grid-row: 1/2;
+      }
+      div.gymCard{
+        grid-column: 1/4;
+        grid-row: 3/4;
+      }
+      div.poolTxt{
+        font-size: 15px;
+      }
+
+      /*----------------------------Reception-----------------------------*/
+      div.receptionWrapper{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows:auto;
+        
+      }
+      div.bookingimgbttn2{
+        grid-column: 1/4;
+        grid-row:1/2;
+
+      }
+      div.receptionmeetingCard{
+        grid-column: 1/4;
+
+      }
+
+}
