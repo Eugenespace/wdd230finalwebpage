@@ -1,0 +1,90 @@
+@media only screen and (min-width: 560px) {
+  nav button {
+    display: none;
+  }
+  nav ul.navlinks {
+    display: flex;
+    text-decoration: none;
+    list-style: none;
+    padding: 0.8rem 0;
+  }
+
+  div.homewrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    grid-gap: 10px;
+  }
+  div.heroimg {
+    grid-column: 1/3;
+  }
+  div.oregonCard {
+    grid-row: 3/4;
+  }
+  div.weather__dailyforcast {
+    flex-direction: column;
+  }
+
+  /*-----------------------temple page-----------------------------*/
+
+  div.card__directory {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  /*----------------------Reservation-------------------------------*/
+  div.formwrapper {
+    display: grid;
+  }
+  /*------------------------Services---------------------------------*/
+
+  div.servicesWrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 250px 600px 1fr;
+    grid-gap: 10px;
+  }
+  div.listedServices {
+    grid-column: 1/3;
+    grid-row: 1/2;
+  }
+  /*----------------------------Reception-----------------------------*/
+  div.receptionWrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 10px;
+  }
+  div.bookingimgbttn2 {
+    grid-column: 1/3;
+    grid-row: 2/3;
+  }
+  /*-------------------footer--------------------------------------------------*/
+  div.wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+  div.linkEmail {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+  }
+  /*-----------------------------Fulltime missionary page-------------------------------*/
+
+  div.fulltimeWrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 0.5fr 0.5fr;
+    grid-gap: 10px;
+  }
+
+  div.contactUs {
+    grid-column: 1/3;
+    grid-row: 3/4;
+  }
+  div.featuresRoom {
+    grid-column: 1/3;
+    grid-row: 2/3;
+  }
+}

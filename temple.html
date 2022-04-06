@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Temple Inns and Suites</title>
+    <link rel="stylesheet" href="css/small.css">
+    <link rel="stylesheet" href="css/medium.css">
+    <link rel="stylesheet" href="css/large.css">
+    <link rel="stylesheet" href="css/normalize.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&family=Rubik:wght@300&display=swap"
+        rel="stylesheet">
+    <link rel="shortcut icon" href="images/favicon(1).ico">
+    <script defer src="js/script.js"></script>
+    <script defer src="js/temple.js"></script>
+    <!-- <script defer src="js/weatherapi.js"></script> -->
+
+    <script src="https://kit.fontawesome.com/bfc6b49eec.js" crossorigin="anonymous"></script>
+
+
+</head>
+
+<body>
+
+
+    <header id="navwrapper">
+        <img src="images/logo.jpg" alt="temple suit logo" height="80" width="80" loading="lazy">
+        <div class="socialmedia">
+            <a href="https://www.facebook.com/"><i class="fa-brands fa-facebook"></i> Facebook</a>
+            <a href="https://twitter.com/"><i class="fa-brands fa-twitter"></i> Twitter</a>
+            <a href="https://www.instagram.com/accounts/login/"><i class="fa-brands fa-instagram"></i> Instagram</a>
+        </div>
+    </header>
+    <nav>
+        <button class="hamburgerbttn"><span>&#9776;</span><span>X</span></button>
+        <ul class="navlinks open">
+            <li><a href="index.html">Home</a> </li>
+            <li class="active"> <a href="temple.html">Temple</a></li>
+            <li><a href="reservation.html">Reservation</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="reception.html">Reception</a></li>
+            <li><a href="fulltimemissionary.html">Full-Time Missionary</a></li>
+
+        </ul>
+    </nav>
+
+    <main>
+        <h1>TEMPLE</h1>
+        <div class="heroimg">
+            <h1 class="bannerheading">TEMPLE INNS AND SUITES</h1>
+            <form action="reservation.html" method="get">
+                <button class="bookbuttn">
+                    Book Now
+                </button>
+            </form>
+
+
+        </div>
+        <div class="list-icons">
+            <i class="fa-solid fa-table-cells view-active"></i>
+            <i class="fa-solid fa-list"></i>
+        </div>
+        <div class="card__directory" id="directory">
+        </div>
+
+
+       
+
+    </main>
+
+    <footer>
+        <div class="wrapper">
+            <div class="resourceWrapper">
+                <h2>Resources</h2>
+                <a href="reservation.html">Reservation</a>
+                <a href="temple.html">Temple</a>
+                <a href="reception.html">Reception</a>
+
+            </div>
+            <div class="contactus">
+                <img src="images/logo.jpg" alt="temple inn logo" height=80 width=80>
+                <h2><i class="fa-solid fa-id-card-clip"></i> CONTACT US</h2>
+                <br><i class="fa-solid fa-phone"></i> Tel: +233203744176<br>
+            </div>
+            <div class="linkEmail">
+                <a
+                    href="https://www.google.com/maps/place/4800+Montgomery+Ln,+Bethesda,+MD+20814,+USA/@38.9832518,-77.0977205,17z/data=!3m1!4b1!4m5!3m4!1s0x89b7c97b6b3b5b43:0xceab47cd19a23a3b!8m2!3d38.9832518!4d-77.0955318">
+                    <i class="fa-solid fa-location-dot"></i> Locate Us Here </a>
+                <br><i class="fa-solid fa-envelope"></i> reservations.accra@templeinns.com<br>
+                <label class="footer"> Email* <input type="email" name="email" required
+                    placeholder="Type email to subscribe to our newsletters eg. someone@gmail.com"></label>
+                    <button onclick="thankyou()" >Subscribe</button>
+                </div>
+        </div>
+        <div class="copyrightwrapper">
+            &copy;<span id="thisyear">2018</span> Eugene Kartey | Final Project Work
+            <p id="lastmod"></p>
+        </div>
+    </footer>
+   
+
+</body>
+
+</html>

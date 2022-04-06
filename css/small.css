@@ -1,0 +1,502 @@
+:root {
+	/* change the values below to your colors from your palette */
+	--primary-color: #0A9396;
+	--secondary-color: #94d2bd;
+	--accent1-color: #e9d8a6;
+	--accent2-color: #ee9b00;
+}
+
+
+/*-------------------BODY---------------------------------------------*/
+
+*{-moz-box-sizing:border-box;
+  -webkit-box-sizing: border-box;box-sizing: border-box;
+}
+header img{
+  border-radius: 4px;
+  border-style: groove;
+}
+main{
+  margin: auto;
+  max-width: 80%;
+  justify-content: center;
+  align-items: center;
+}
+
+body{
+  font-family: 'Roboto', sans-serif;;
+  font-size: 16px;
+
+}
+/*-------------------HEADER-------------------------------------------*/
+h1{font-family: 'Rubik', sans-serif;}
+p{
+  line-height: 1.5;
+}
+h1,h2,h3,h4,h5,h6{
+  text-shadow: 3px 3px 5px gray;
+ 
+}
+
+header{
+  background-color:var(--accent2-color);
+  padding:1rem 2%;
+}
+header div.socialmedia{
+  display: flex;
+  justify-content: right;
+  font-size: 30px;
+  
+  
+}
+header div a{
+  padding:10px;
+  color: black;
+  font-size: 16px;
+}
+/*-------------------NAV---------------------------------------------*/
+nav{
+  background-color:var(--accent1-color);
+  
+}
+nav button{
+  margin: 0.2rem 2vw;
+  background: transparent;
+  border: none;
+  font-size: 2rem;
+  color: #555;
+ 
+}
+.hamburgerbttn span:nth-child(1) {
+	display: block;
+}
+.hamburgerbttn span:nth-child(2) {
+	display: none;
+}
+
+.hamburgerbttn.open span:nth-child(1) {
+	display: none;
+}
+.hamburgerbttn.open span:nth-child(2) {
+	display: block;
+}
+nav ul{
+  display: none;
+}
+nav ul.open {
+  display: block;
+}
+nav ul {
+  list-style-type: none;
+  justify-content: left;
+  padding: 0px;
+  margin: 0px;}
+
+nav ul li{
+  padding: 10px;
+}
+nav li{list-style-type: none;}
+nav li.active{background-color:var(--secondary-color);
+border-radius: 4px;}
+
+nav a{
+ display:block;
+ padding: .8rem 0;
+margin-left: 10px;
+ text-align: center;
+ text-decoration: none;
+ font-weight: bold;
+
+}
+nav a:hover {background-color:var(--accent2-color);
+border-radius: 4px;
+padding: 10px;}
+
+/*----------------------------------MAIN PAGE--------------------------------*/
+
+
+div h1.bannerheading{
+  text-align: center;
+  color:whitesmoke;
+  background-color: var(--primary-color);
+}
+div form button{
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    /* margin-top: 100px;
+    margin-bottom: 100px; */
+    
+}
+.bookbuttn{
+background-color: var(--secondary-color);
+border-radius: 5px;
+max-width: 20%;
+padding: 0.5rem 1vw;
+border: 0;
+cursor: pointer;
+font-weight: bolder;
+}
+
+.heroimg{
+  background-image: url('../images/bannerhotelsuite.webp');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+  height: 200px;
+}
+
+
+
+div figure img{
+width: 100%;}
+div figure {width:100%;
+margin:0;}
+div figcaption{ text-align: center;font-size: .8rem;}
+
+div.cardTemple{
+  border: 1px solid;
+  border-radius: 4px;
+  padding: 10px;
+  margin: 10px 0 10px 0;
+}
+div.cardTemple h2{
+  text-align: center;
+}
+
+main div.weatherwrapper{
+  background-color: var(--primary-color);
+  text-align: center;
+  padding:10px;
+  border-radius: 4px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+ 
+
+}
+
+h2.summaryunderline{
+   text-align: center;
+ }
+div.weather__dailyforcast{
+  display: flex;
+  justify-content: center;
+  background-color: #e9d8a6;
+  margin-bottom: 20px;
+  border-radius: 4px;
+  
+}
+div.weatherbox1,div.weatherbox2,div.weatherbox3{
+  
+  
+  text-align: center;
+  padding: 10px;
+}
+
+div.weatherbox1 h6,img{
+  align-items: center;
+  justify-items: center;
+  
+}
+
+section.sticky__event{
+  border: 1px solid;
+  border-radius: 4px;
+  padding: 10px;
+  margin: 10px 0px 10px 0px;
+ 
+}
+
+
+
+
+
+/*----------------------------------footer-----------------------------*/
+footer{
+  background-color: var(--accent2-color);
+ 
+}
+div.wrapper{
+  display: grid;
+  grid-template-columns: 1fr ;
+  
+
+}
+footer div.contactus{
+  padding: 10px;
+  text-align: center;
+}
+div.linkEmail{
+  text-align: center;
+}
+footer a{
+  color: black;
+}
+.fa-location-dot{
+  color: black;
+}
+div.contactus img{
+  border-radius: 4px;
+  border-style: groove;
+}
+div.copyrightwrapper{
+  text-align: center;
+  font-style: italic;
+  margin: 10px;
+
+  
+}
+
+
+/*---------------------------------------Temple Page CSS---------------------------------------*/
+
+section.directory1 img{
+	border-radius: 4px;
+	
+  height: auto;
+}
+
+.directory1 {
+	text-align: center;
+	border-radius: 5px;
+	margin: 20px;
+  background-color: #94d2bd;
+}
+
+.directory1 p {
+	margin: 20px;
+}
+
+.card__directory img {
+	width: 100%;
+	padding :2px;
+}
+.hidden {
+	display: none;
+}
+.list-view {
+	background-color: #f0a90f21;
+	border-radius:4px;
+	width: auto;
+}
+
+section.card__directory {
+	width: 100%;
+}
+div.list-icons {
+	display: flex;
+	justify-content: center;
+	cursor: pointer;
+  margin: 20px 0 20px 0;
+  
+}
+
+.fa-solid {
+	font-size: 1.5rem;
+}
+
+.fa-solid:hover {
+	background-color:var(--accent1-color);
+	color:var(--primary-color);
+}
+.view-active {
+	background-color: var(--accent2-color);
+	color: var(--secondary-color);
+}
+
+/*---------------------------------------form reservation-----------------------------------------*/
+
+h2.heading {
+	font-size: 18px;
+	text-transform: uppercase;
+	font-weight: 300;
+	text-align: left;
+	padding-bottom: 3px;
+	margin-bottom: 20px;}
+
+
+button{
+  cursor: pointer;
+  
+}
+
+form {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+
+input#room,input#adults,input#kids{
+  background-color:var(--accent1-color);
+
+}
+
+input {
+  width: 100%;
+  box-shadow: 4px 10px 20px rgba(0, 0, 0, 0.08);
+  border-radius: 5px;
+  border: none;
+  padding: 20px;
+  outline: none;
+  font-size: 21px;
+}
+
+label {
+  font-size: 17px;
+  align-items: center;
+  padding: 5px 0;
+  color: rgba(0, 0, 0, 0.5);
+}
+textarea.label{
+  border-style: none;
+}
+
+
+
+/*-------------------------------form- fulltime missionary page-----------------------------------------*/
+
+div.luxfulltime{
+  margin: 10px 0 10px 0;
+  border-radius: 4px;
+  border: 1px solid;
+  padding: 20px;
+}
+div.luxfulltime h2{
+  text-align: center;
+}
+.featuresRoom h2{
+  text-align: center;
+}
+.featuresRoom{
+  background-color:var(--secondary-color);
+  border-radius: 4px;
+  padding: 20px;
+
+}
+form fieldset {
+	margin-bottom: 10px;
+	border: 1px solid #445ba9;
+	padding: 0.5rem 2%;
+}
+form legend {
+	color: #445ba9;
+	margin: 0.1rem;
+	padding: 0 0.5rem;
+}
+form label.top,
+form div {
+	display: block;
+	padding-top: 1rem;
+	color:black;
+	font-size: 0.8rem;
+}
+
+form label.top input,form label.top textarea,
+form label.top select {
+	-webkit-appearance: none;
+	display: block;
+	font-size: 1rem;
+	/* border: solid 1px #999; */
+	border-radius: 4px;
+	padding: 0.75rem;
+	color: #555;
+	width: 100%;
+	max-width: 20rem;
+	background-color: var(--accent1-color);
+}
+
+form label.top input:required {
+	border-left: var(--primary-color) solid 6px;
+}
+form label.top input:required:valid {
+	border-left: green solid 6px;
+}
+div form button.contactForm{
+  position: relative;
+
+  transform: translateX(-50%);
+
+}
+
+/*--------------------------------------Services Page----------------------------------------*/
+div.listedServices{
+  background-color: var(--accent1-color);
+  border: 1px Solid #555;
+  
+}
+div.listedServices ul li{
+  list-style-type: none;
+  
+}
+div ul{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+ 
+}
+div.cateringCard,div.gymCard,div.listedServices,div.poolCard,div.laundryServices,div.receptionCard{
+  border: 1px solid #555;
+  border-radius: 4px;
+  /* box-shadow: 1px solid #555; */
+  margin: 10px 0 10px 0;
+  padding: 10px;
+}
+div.dinningTxt,div.gymTxt,div.poolTxt,div.laundryTxt{
+  text-align: center;
+}
+
+.listedServices h1{
+  text-align: center;
+
+}
+
+/*--------------------------------Reception--------------------------------------*/
+div.receptionCard{
+  border: 1px solid #555;
+  border-radius: 4px;
+  /* box-shadow: 1px solid #555; */
+  margin: 10px 0 10px 0;
+  padding: 10px;
+}
+div.receptionCard h2 {
+  text-align: center;
+}
+div.receptionCard h3 {
+  text-align: center;
+}
+div.receptionCard p {
+  text-align: center;
+}
+
+
+
+/*-----------------------resources-----------------*/
+div.resourceWrapper{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  
+}
+
+/*---------------------thank you----------------------------*/
+
+div.thankyou{
+  display: flex;
+
+}
+label.footer{
+    display: block;
+    font-size: 1rem;
+    border-radius: 4px;
+    padding: 0.75rem;
+    color: #555;
+    width: 100%;
+    max-width: 20rem;
+    margin: 20px;
+    background-color: var(--accent1-color);
+}
