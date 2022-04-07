@@ -67,8 +67,7 @@
   div.linkEmail {
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    text-align: center;
+    padding:10px;
   }
   /*-----------------------------Fulltime missionary page-------------------------------*/
 

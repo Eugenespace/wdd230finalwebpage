@@ -13,8 +13,7 @@ fetch(weatherURL)
       "https://openweathermap.org/img/wn/" +
       jsonObject.list[6].weather[0].icon +
       "@2x.png";
-    // const image_day_one = 'https://openweathermap.org/img/w/${jsObject.weather[0].icon}.png';
-    //  temperature
+  
     const temp_day_one = jsonObject.list[6].main.temp;
 
     // Day 2
