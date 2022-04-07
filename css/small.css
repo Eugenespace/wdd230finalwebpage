@@ -147,7 +147,8 @@ font-weight: bolder;
 
 
 div figure img{
-width: 100%;}
+width: 100%;
+height: auto;}
 div figure {width:100%;
 margin:0;}
 div figcaption{ text-align: center;font-size: .8rem;}
