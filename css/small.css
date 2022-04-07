@@ -506,6 +506,11 @@ main.thankyouPage h1{
   margin: 10px;
 }
 
+section div.weather__dailyforcast{
+  display: flex;
+  flex-direction: column;
+}
+
 label.footer{
     display: block;
     font-size: 1rem;
