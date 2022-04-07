@@ -1,17 +1,6 @@
 @media only screen and (min-width: 1028px) {
-    nav button{
-    display: none;
-    }
-
-    nav ul.navlinks{
-        display: flex;
-        
-        text-decoration: none;
-        list-style: none;
-        padding: .8rem 0;
-       
-      }
-    
+   
+   
       div.homewrapper{
         display: grid;
         grid-template-columns: 250px 1fr 250px;
