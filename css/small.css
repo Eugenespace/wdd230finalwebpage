@@ -121,7 +121,8 @@ div h1.bannerheading{
   background-color: var(--primary-color);
 }
 div form button{
-    position: relative;
+    
+  position: relative;
     left: 50%;
     transform: translateX(-50%);
     /* margin-top: 100px;
@@ -245,6 +246,15 @@ div.copyrightwrapper{
   margin: 10px;
 
   
+}
+div.linkEmail button{
+  display:flex;
+	max-width:100px;
+	justify-content:center;
+	align-content:center;
+	margin:auto;
+	
+
 }
 
 
@@ -495,7 +505,7 @@ label.footer{
     border-radius: 4px;
     padding: 0.75rem;
     color: #555;
-    width: 100%;
+    
     max-width: 20rem;
     margin: 20px;
     background-color: var(--accent1-color);
