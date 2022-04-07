@@ -495,10 +495,17 @@ div.resourceWrapper{
 
 /*---------------------thank you----------------------------*/
 
-div.thankyou{
-  display: flex;
-
+main.thankyouPage{
+  max-width: 50%;
+  justify-content: center;
+  align-items: center;
+  background-color: #94d2bd;
 }
+main.thankyouPage h1{
+  padding: 10px;
+  margin: 10px;
+}
+
 label.footer{
     display: block;
     font-size: 1rem;
