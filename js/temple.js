@@ -72,10 +72,12 @@ function displaytemples(templedirectory) {
   const gridbtn = document.querySelector(".fa-table-cells");
   const listbtn = document.querySelector(".fa-list");
 
+
   likebttn.addEventListener("click", function () {
     likebttn.classList.add("clicked");
     let bttn = document.querySelector(".clicked");
     bttn.innerHTML = "liked";
+    //-----------local storage------------------------//
     window.localStorage.setItem('action','Liked this temple')
     if (bttn=="liked"){
         likebttn.addEventListener('click',function (){
