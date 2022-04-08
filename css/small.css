@@ -14,9 +14,31 @@
 }
 header img{
   border-radius: 4px;
-  border-style: groove;
+  /* border-style: groove; */
 }
-
+div.logowrapper{
+  display: grid;
+  grid-template-columns: 100px;
+  width: 100%;
+  height: auto;
+}
+div.logowrapper img{
+  width: 100%;
+  height: auto;
+}
+div.footerimg{
+  display: grid;
+  grid-template-columns: 100px;
+  width: 100%;
+  height: auto;
+  margin: 0;
+  justify-content: center;
+}
+div.footerimg img{
+  width: 100%;
+  height: auto;
+  align-items: center;
+}
 main{
   margin: auto;
   max-width: 80%;
@@ -510,13 +532,16 @@ section div.weather__dailyforcast{
 }
 
 label.footer{
-    display: block;
+    
     font-size: 1rem;
     border-radius: 4px;
     padding: 0.75rem;
     color: #555;
-    
     max-width: 20rem;
-    margin: 20px;
     background-color: var(--accent1-color);
+    justify-content: center;
+    display: grid;
+    grid-template-columns: 1fr;
+    margin: auto;
+
 }
